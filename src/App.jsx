@@ -18,11 +18,11 @@ const App = () => {
           <p className="text-center text-white mt-[1rem] text-lg mb-[2rem] font-light mx-2">Check out our list of games published.</p>
           <Button link="/games">Games</Button>
         </Box>
-        <Box title="Publishing Services" logo="storeicons/paint.webp">
+        {/* <Box title="Publishing Services" logo="storeicons/paint.webp">
           <p className="text-center text-white mt-[3rem] text-lg font-semibold mx-2">Indie game publishing, by indie game developers.</p>
           <p className="text-center text-white mt-[1rem] text-lg mb-[2rem] font-light mx-2">Contact us about getting your project published, ported, or marketed.</p>
           <Button link="/publishing">Learn more</Button>
-        </Box>
+        </Box> */}
       </div>
     </>
   )

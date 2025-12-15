@@ -52,10 +52,6 @@ const router = createBrowserRouter([
         element: <Message num={2} title="Information Regarding Data Protection, as Accordance of GDPR" />
       },
       {
-        path: "publishing",
-        element: <Publishing />
-      },
-      {
         path: "about",
         element: <About />
       },

@@ -13,7 +13,7 @@ const ListPlatforms = (props) => {
       {curGame.platforms
         .filter((platform) => curGame.platforms.find(p => p.num === platform.num) === platform)
         .map((platform, i) =>
-        <a className="w-[2.5rem] max-w-[12%]" href={platform.url} target="_blank" ><img key={i} src={`/storeicons/${data.platformList[platform.num].img}`} className="active:opacity-80 hover:opacity-80 transition-opacity" /></a>
+        <a key={i} className="w-[2.5rem] max-w-[12%]" href={platform.url} target="_blank" ><img src={`/storeicons/${data.platformList[platform.num].img}`} className="active:opacity-80 hover:opacity-80 transition-opacity" /></a>
       )}
     </div>
   )
